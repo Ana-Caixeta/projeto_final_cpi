@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #FFFEF5;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: #C1EBBD;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 4px 0 #000;
+}
+
+header img {
+  height: 75%;
+  margin: auto;
+  margin-left: 120px;
+}
+
+nav {
+  padding-left: 140px;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  font: 1rem "Roboto", sans-serif;
+  color: #490084;
+  font-weight: bold;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: #4f4f8f;
+}
+
+article {
+  margin: 60px 120px 60px 120px;
+}
+
+p {
+  text-align: justify;
+  font: 1rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+article p {
+  padding-bottom: 15px;
+}
+
+/* Três Leis Naturais*/
+
+#tres-leis-naturais {
+  background-color: #C1EBBD;
+}
+
+#section-color {
+  padding: 60px 120px 60px 120px;
+}
+
+#tres-leis-naturais h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  padding-bottom: 30px;
+}
+
+.container-tres-leis img {
+  width: 123px;
+  height: 129px;
+}
+
+#tres-leis-naturais h3{
+  font: 1.6rem "Maitree", serif;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+#tres-leis-naturais p{
+  text-align: justify;
+}
+
+.container-tres-leis{
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.content-tres-leis{
+  margin-left: 20px;
+  align-self: center;
+}
+
+/* Serviços */
+
+#pag-servicos{
+  padding: 60px 120px 60px 120px;
+}
+
+#pag-servicos h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#container-servicos {
+  display: flex;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.card-servicos {
+  width: 25%;
+  background-color: #c1ebbd;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-servicos:hover{
+  background-color: #d5ffd0;
+}
+
+#pag-servicos h3 {
+  text-align: center;
+  font: 1.1rem "Maitree", serif;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.card-servicos p {
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Sobre Mim */
+
+#pag-sobre-mim {
+  background-color: #C1EBBD;
+  padding: 60px 120px 60px 120px;
+}
+
+#container-sobremim {
+  display: flex;
+  gap: 70px;
+}
+
+#pag-sobre-mim img {
+  width: 362px;
+  height: 460px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 2px 2px #00000054;
+}
+
+.card-sobremim h3 {
+  display: inline-block;
+  background-color: #490084;
+  color: #FFFEF5;
+  padding: 9px;
+}
+
+.card-sobremim h3:hover{
+  background-color: #4f4f8f;
+}
+
+.card-sobremim h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  padding-top: 20px;
+}
+
+/* Agendamentos */
+#pag-agendamentos h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+/* Agendamentos */
