@@ -188,4 +188,15 @@ article p {
   padding: 30px 0 30px 0;
   text-align: center;
 }
+
+#pag-agendamentos p{
+  text-align: justify;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Agendamentos */
