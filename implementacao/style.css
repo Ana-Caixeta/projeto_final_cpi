@@ -181,11 +181,16 @@ article p {
 }
 
 /* Agendamentos */
+
+#pag-agendamentos{
+  padding: 30px 120px 60px 120px;
+}
+
 #pag-agendamentos h2 {
   font: 2rem "Maitree", serif;
   font-weight: 500;
   color: #490084;
-  padding: 30px 0 30px 0;
+  padding: 10px 0 30px 0;
   text-align: center;
 }
 
@@ -193,10 +198,83 @@ article p {
   text-align: justify;
 }
 
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+li{
+  text-align: justify;
+  font: 1rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
-/* Agendamentos */
+ul{
+  padding: 20px 0 20px 15px;
+}
+
+#pag-agendamentos h3{
+  font: 1.2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+#box-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label{
+  text-align: justify;
+  font: 1rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+input{
+  text-align: justify;
+  font: 0.8rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px; 
+  padding-left: 5px;
+  margin: 6px 0 10px 0;
+  width: 300px;
+  height: 25px;
+  border: #aaaaaa solid 1px;
+  border-radius: 3px;
+}
+
+input[type="submit"]{
+  width: 130px;
+  background-color: #85D77E;
+  border: #85D77E;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 30px 5px 30px;
+  border-radius: 4px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+  background-color: #C1EBBD;
+  padding: 18px 120px 35px 120px;
+}
+
+#contato-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 400px 0 400px;
+}
+
+.img-contato{
+  padding: 20px;
+  width: 40px;
+}
+
+footer p{
+  text-align: center;
+  font-weight: 500;
+  color: #490084;
+}
