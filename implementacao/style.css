@@ -254,6 +254,19 @@ input[type="submit"]{
   cursor: pointer;
 }
 
+/*Contato - Mapa*/
+.mapBox{
+  position: relative;
+  width: 2070px;
+  height: 257px;
+}
+
+.mapBox iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
 /* Footer */
 
 footer{
@@ -278,3 +291,4 @@ footer p{
   font-weight: 500;
   color: #490084;
 }
+
