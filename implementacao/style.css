@@ -257,7 +257,7 @@ input[type="submit"]{
 /*Contato - Mapa*/
 .mapBox{
   position: relative;
-  width: 2070px;
+  width: 100%;
   height: 257px;
 }
 
@@ -292,3 +292,15 @@ footer p{
   color: #490084;
 }
 
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px){
+  header{
+    height: 130px;
+  }
+  .container-tres-leis, #container-servicos, .card-servicos, #container-sobremim, .card-sobremim, .mapBox, #pag-contato, footer p{
+    width: 100%;
+    flex-direction: column;
+  }
+  
+}
