@@ -150,7 +150,7 @@ article p {
   padding: 60px 120px 60px 120px;
 }
 
-#container-sobremim {
+.container-sobremim {
   display: flex;
   gap: 70px;
 }
@@ -294,13 +294,20 @@ footer p{
 
 /* RESPONSIVIDADE */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 390px){
   header{
     height: 130px;
   }
-  .container-tres-leis, #container-servicos, .card-servicos, #container-sobremim, .card-sobremim, .mapBox, #pag-contato, footer p{
+ 
+  .class-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container-tres-leis, .card-sobremim, .mapBox, #pag-contato{
     width: 100%;
     flex-direction: column;
   }
-  
+
 }
