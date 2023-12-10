@@ -56,6 +56,10 @@ article p {
   padding-bottom: 15px;
 }
 
+section{
+  scroll-margin-top: 80px;
+}
+
 /* Três Leis Naturais*/
 
 #tres-leis-naturais {
